@@ -1,0 +1,24 @@
+body {
+  font-family: Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  margin: 0
+}
+
+.alert {
+  padding: 10px 20px;
+  background-color: #cb3837;
+  color: #fff;
+  border: 1px solid #aaa;
+}
+
+.dashboard-selector {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 4px;
+  background: #424242;
+  color: #90caf9;
+  opacity: 95%;
+}
