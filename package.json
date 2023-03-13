@@ -1,16 +1,17 @@
 {
   "name": "ic3-demo-embedded-vue3",
-  "version": "8.4.0-alpha.1",
+  "version": "8.4.0-alpha.2",
   "description": "icCube dashboards integration (Vue3)",
   "homepage": "https://github.com/ic3-software/ic3-demo-embedded-vu3",
   "repository": "https://github.com/ic3-software/ic3-demo-embedded-vu3",
   "private": true,
   "dependencies": {
-    "@ic3/reporting-api-embedded": "file:../../ic3-reporting-api-embedded",
+    "@ic3/reporting-api-embedded": "8.4.0-alpha.2",
     "vite-plugin-vuetify": "1.0.2",
     "vue": "3.2.47"
   },
   "devDependencies": {
+    "@babel/types": "7.21.2",
     "@rushstack/eslint-patch": "1.2.0",
     "@types/node": "18.15.1",
     "@vitejs/plugin-vue": "4.0.0",
