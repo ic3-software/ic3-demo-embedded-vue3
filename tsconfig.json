@@ -6,6 +6,8 @@
     "src/**/*.vue"
   ],
   "compilerOptions": {
+    "skipLibCheck": true,
+    "isolatedModules": true,
     "baseUrl": ".",
     "paths": {
       "@/*": [

@@ -37,10 +37,9 @@ npm run dev
 
 ### Documentation
 
-See this [page](https://github.com/ic3-software/ic3-reporting-api/blob/main/doc/embed/Overview.md)
+See this [page](https://github.com/ic3-software/ic3-reporting-api-embedded/blob/main/doc/Overview.md)
 for a detailed documentation of the API.
 
-- ic3 Reporting API : [link](https://github.com/ic3-software/ic3-reporting-api)
-- Div/Frame Loader classes : [link](https://github.com/ic3-software/ic3-reporting-api/blob/main/src/Loader.ts)
+- DIV/IFRAME Loader classes : [link](https://github.com/ic3-software/ic3-reporting-api-embedded/blob/main/src/Loader.ts)
 
 _

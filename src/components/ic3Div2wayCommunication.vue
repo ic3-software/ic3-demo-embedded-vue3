@@ -25,8 +25,8 @@
 </template>
 
 <script setup lang="ts">
-import {onMounted, ref, } from 'vue';
-import type {IReporting, IReportDefinition} from '@ic3/reporting-api';
+import {onMounted, ref,} from 'vue';
+import type {IReportDefinition, IReporting} from '@ic3/reporting-api-embedded';
 import {ic3DivContext} from "@/main";
 
 const errorMessage = ref('');

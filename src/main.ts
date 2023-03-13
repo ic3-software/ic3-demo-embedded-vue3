@@ -2,7 +2,7 @@ import {createApp} from 'vue'
 import App from './App.vue'
 import 'vuetify/styles'
 import {createVuetify} from 'vuetify'
-import {DashboardsLoaderDivContext} from '@ic3/reporting-api';
+import {DashboardsLoaderDivContext} from '@ic3/reporting-api-embedded';
 
 createApp(App).use(createVuetify()).mount('#app');
 

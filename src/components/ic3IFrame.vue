@@ -23,8 +23,8 @@
 
 <script setup lang="ts">
 import {onMounted, ref} from 'vue';
-import type {IReporting} from '@ic3/reporting-api';
-import {DashboardsLoaderFrame} from '@ic3/reporting-api';
+import type {IReporting} from '@ic3/reporting-api-embedded';
+import {DashboardsLoaderFrame} from '@ic3/reporting-api-embedded';
 
 const d = ref<string | null>("1way");
 
