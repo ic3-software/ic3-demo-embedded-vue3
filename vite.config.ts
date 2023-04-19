@@ -28,31 +28,5 @@ export default defineConfig(({mode}) => {
                 }
             }
         },
-        optimizeDeps: {
-            /**
-             * Fixing the issue when using in package.json
-             *
-             *   "dependencies": {
-             *     "@ic3/reporting-api": "file:../../ic3-reporting-api",
-             *   },
-             *
-             * stuff outside node_modules are ignored.
-             */
-            include: ['@ic3/reporting-api'],
-        },
-        build: {
-            commonjsOptions: {
-                /**
-                 * Fixing the issue when using in package.json
-                 *
-                 *   "dependencies": {
-                 *     "@ic3/reporting-api": "file:../../ic3-reporting-api",
-                 *   },
-                 *
-                 * stuff outside node_modules are ignored.
-                 */
-                include: [/.ic3.reporting-api/, /node_modules/]
-            }
-        }
     }
 })
