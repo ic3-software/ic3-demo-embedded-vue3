@@ -6,6 +6,8 @@
     "src/**/*.vue"
   ],
   "compilerOptions": {
+    "composite": true,
+    "noEmit": true,
     "moduleResolution": "node",
     "ignoreDeprecations": "5.0",
     "skipLibCheck": true,
@@ -20,10 +22,5 @@
   "typeRoots": [
     "node_modules/@types",
     "src/@types"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.config.json"
-    }
   ]
 }

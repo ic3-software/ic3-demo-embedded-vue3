@@ -1,37 +1,37 @@
 {
   "name": "ic3-demo-embedded-vue3",
-  "version": "8.4.7",
+  "version": "8.4.8",
   "description": "icCube dashboards integration (Vue3)",
   "homepage": "https://github.com/ic3-software/ic3-demo-embedded-vu3",
   "repository": "https://github.com/ic3-software/ic3-demo-embedded-vu3",
   "private": true,
   "dependencies": {
-    "@ic3/reporting-api-embedded": "8.4.7",
+    "@ic3/reporting-api-embedded": "8.4.8",
     "vite-plugin-vuetify": "1.0.2",
-    "vue": "3.3.8"
+    "vue": "3.4.14"
   },
   "devDependencies": {
-    "@babel/types": "7.23.4",
-    "@rushstack/eslint-patch": "1.6.0",
+    "@babel/types": "7.23.6",
+    "@rushstack/eslint-patch": "1.6.1",
     "@tsconfig/node18": "18.2.2",
-    "@types/node": "20.9.5",
-    "@vitejs/plugin-vue": "4.5.0",
+    "@types/node": "20.11.3",
+    "@vitejs/plugin-vue": "4.5.2",
     "@vue/eslint-config-typescript": "12.0.0",
-    "@vue/tsconfig": "0.4.0",
-    "eslint": "8.54.0",
-    "eslint-plugin-vue": "9.18.1",
+    "@vue/tsconfig": "0.5.1",
+    "eslint": "8.56.0",
+    "eslint-plugin-vue": "9.20.1",
     "npm-run-all": "4.1.5",
-    "sass": "1.69.5",
-    "typescript": "4.9.5",
+    "sass": "1.69.7",
+    "typescript": "5.3.3",
     "vite": "4.5.0",
-    "vue-tsc": "1.8.22"
+    "vue-tsc": "1.8.27"
   },
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit",
+    "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   }
 }
