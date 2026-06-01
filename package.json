@@ -1,13 +1,13 @@
 {
   "name": "ic3-demo-embedded-vue3",
-  "version": "9.2.1",
+  "version": "9.3.0",
   "license": "MIT",
   "description": "icCube dashboards integration (Vue3)",
   "homepage": "https://github.com/ic3-software/ic3-demo-embedded-vu3",
   "repository": "https://github.com/ic3-software/ic3-demo-embedded-vu3",
   "private": true,
   "dependencies": {
-    "@ic3/reporting-api-embedded": "9.2.1",
+    "@ic3/reporting-api-embedded": "9.3.0",
     "vite-plugin-vuetify": "2.1.2",
     "vue": "3.5.26"
   },
